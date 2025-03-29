@@ -53,7 +53,7 @@
   <body>
     <h1>Number guessing game</h1>
 
-    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+    <p>Pepe has selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. He'll tell you if your guess was too high or too low.</p>
 
     <div class="form">
       <label for="guessField">Enter a guess: </label>
@@ -67,15 +67,22 @@
       <p class="lowOrHi"></p>
     </div>
 
+  <!--<div>
+  <button>Start new game<document.queryselector(button:nth-child(10))< button="">
+  </document.queryselector(button:nth-child(10))<></button>
+  </div>
     <div class="container">
-        <img src="./images/g20.png" height="auto" width="350px">
+      <img src="./images/g20.png" height="auto" width="350px">
     </div>
+    
+    <div class="container">
+      <a href="https://mainnet.demo.btcpayserver.org/api/v1/invoices?storeId=uCoYFrFB8NvLhKgRKL8aTdq7QhaeDHdxU7yyPNNGXaB&currency=USD" target="_blank" rel="noopener noreferrer">
+      <button class="joinBtn">SEND ME SUM SATS</button>
+      </a>
+    </div>-->
+    
 
-    <div class="container">
-        <a href="https://mainnet.demo.btcpayserver.org/api/v1/invoices?storeId=uCoYFrFB8NvLhKgRKL8aTdq7QhaeDHdxU7yyPNNGXaB&currency=USD" target="_blank" rel="noopener noreferrer">
-        <button class="joinBtn">SEND ME SUM SATS</button>
-        </a>
-    </div>
+    
 
     <script>
         let randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -152,10 +159,18 @@ function resetGame() {
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
 
+</script>
 
-                                                                                
 
-        
-    </script>
-  </body>
+
+<div class="container">
+  <img src="./images/g20.png" height="auto" width="350px">
+</div>
+
+<div class="container">
+  <a href="https://mainnet.demo.btcpayserver.org/api/v1/invoices?storeId=uCoYFrFB8NvLhKgRKL8aTdq7QhaeDHdxU7yyPNNGXaB&currency=USD" target="_blank" rel="noopener noreferrer">
+  <button class="joinBtn">SEND ME SUM SATS</button>
+  </a>
+</div>
+</body>
 </html>
